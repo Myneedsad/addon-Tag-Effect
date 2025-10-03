@@ -1,0 +1,33 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Tag Effect",
+    "description": "\u0e02\u0e2d\u0e1a\u0e04\u0e38\u0e13\u0e17\u0e35\u0e48\u0e2d\u0e38\u0e14\u0e2b\u0e19\u0e38\u0e19\u0e2a\u0e34\u0e19\u0e04\u0e49\u0e32\u0e08\u0e32\u0e01\u0e23\u0e49\u0e32\u0e19 Star Store",
+    "uuid": "925e4d41-f501-4d24-830d-171ce06cfee5",
+    "version": [1, 0, 1],
+    "min_engine_version": [1, 21, 60]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "f9de968b-3289-4f02-b0c1-6160d4511740",
+      "version": [1, 0, 1]
+    },
+    {
+      "type": "script",
+      "uuid": "5566ae36-9d5c-42cd-9b86-ead753a19c43",
+      "version": [1, 0, 1],
+      "entry": "scripts/index.js"
+    }
+  ],
+  "capabilities": ["script_eval"],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.18.0"
+    }
+  ],
+  "metadata": {
+    "authors": ["Star Store", "Admin P"]
+  }
+}
